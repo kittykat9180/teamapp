@@ -111,7 +111,7 @@ function createTeamTable(team){
     nameInput.setAttribute('type', 'text');
     nameInput.setAttribute('class', 'form-control');
     let positionInput = document.createElement('input');
-    positionInput.id = 'id', `position-input-${team.id}`;
+    positionInput.id = `position-input-${team.id}`;
     positionInput.setAttribute('type', 'text');
     positionInput.setAttribute('class', 'form-control');
     let newMemberButton = createNewMemberButton(team);
